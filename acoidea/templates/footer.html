@@ -1,0 +1,55 @@
+{% load home_tags cache compress static wagtailuserbar %}
+{% load wagtailcore_tags %}
+{% load crispy_forms_tags %}
+
+<div class="footercustom">
+<div class="footer">
+  <div class="container">
+    <footer>
+      <div class="row">
+        <div class="col-md-4">
+          <address>
+            <h5>Smartzone</h5><br>
+            <div class="copyright">
+	    <a href="mailto:#">info@smart-zone.es</a> | Skype: smartzone<br>
+            Tel: 91 228 52 56<br>
+	    C/ Isabel Allende 4<br>
+	    28903 Getafe (MADRID) Spain<br>
+          </div>
+          </address>
+        </div>
+        <div class="col-md-4">
+          <h5>Productos y Servicios</h5>
+          {% adverts %}
+        </div>
+        <div class="col-md-4">
+          <h5>Somos sociales</h5>
+          <ul class="list-inline">
+            <a href="#"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span>
+            </a>
+            <a href="#"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span>
+            </a>
+            <a href="#"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-google fa-stack-1x fa-inverse"></i></span>
+            </a>
+            <a href="#"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span>
+            </a>
+            <a href="#"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i></span>
+            </a>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2017 by Smartzone</p>
+    </footer>
+  </div>
+</div>
+</div>
